@@ -1,0 +1,25 @@
+{
+  "name": "authapp",
+  "version": "0.0.1",
+  "description": "app de autenticacao em rota",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "auth",
+    "node",
+    "express"
+  ],
+  "author": "jonatha azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.19.1"
+  }
+}
